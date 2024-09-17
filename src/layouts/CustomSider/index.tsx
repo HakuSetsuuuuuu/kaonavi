@@ -44,9 +44,7 @@ const CustomSider: React.FC = () => {
       style={{ background: colorBgContainer }}
       breakpoint="lg"
       collapsedWidth="0"
-      onBreakpoint={(broken) => {
-        console.log(broken);
-      }}
+      onBreakpoint={(broken) => null}
       collapsible
       collapsed={collapsed}
       onCollapse={(value) => setCollapsed(value)}

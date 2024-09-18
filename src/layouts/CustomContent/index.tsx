@@ -14,6 +14,7 @@ const CustomContent: React.FC = () => {
         margin: 0,
         minHeight: 280,
         height: "100%",
+        width:"100%",
         background: colorBgContainer,
         borderRadius: borderRadiusLG,
       }}

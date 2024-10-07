@@ -86,7 +86,9 @@ export default function CustomHeader() {
 
   return (
     <Header
-      style={{ display: "flex", alignItems: "center", paddingInline: 20 }}
+      style={{ display: "flex", alignItems: "center", paddingInline: 20, position: 'sticky',
+        top: 0,
+        zIndex: 1 }}
     >
       <img
         src={logo}

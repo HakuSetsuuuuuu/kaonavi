@@ -41,7 +41,11 @@ const CustomSider: React.FC = () => {
   return (
     <Sider
       width="250"
-      style={{ background: colorBgContainer }}
+      style={{
+        background: colorBgContainer,
+        borderRight: collapsed ? 0 : "1px solid #f0f0f0",
+        height: "100%"
+      }}
       breakpoint="lg"
       collapsedWidth="0"
       onBreakpoint={(broken) => null}
